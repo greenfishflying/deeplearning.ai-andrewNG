@@ -18,8 +18,12 @@ notes for deeplearning
 ----
 
 ![](./img/dplw4.png)
+![](./img/dplw42.png)
+
 
 W[L]=(n(L),n(L-1))
 b[L]=(n(L),1)
 dW[L]=(n(L),n(L-1))
 db[L]=(n(L),1)
+Z[L]=(n(L),m)   (m为样本个数)
+dZ[L]=(n(L),m)
