@@ -12,3 +12,14 @@ notes for deeplearning
 整个测试集输入网络后，每一g个测试函数输出的损失函数的平均值
 
 ![](https://pic2.zhimg.com/80/v2-5ea83a72fd6d4bfe60e822898291f821_hd.png)
+
+
+3.检查矩阵维度：
+----
+
+![](./img/dplw4.png)
+
+W[L]=(n(L),n(L-1))
+b[L]=(n(L),1)
+dW[L]=(n(L),n(L-1))
+db[L]=(n(L),1)
