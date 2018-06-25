@@ -73,5 +73,6 @@ dZ[L]=(n(L),m)
 ![](https://img-blog.csdn.net/20170928171621914?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS29hbGFfVHJlZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 高偏差（欠拟合）--->更大的网络/更长时间的训练/（换网络）
+
 高方差（欠拟合）--->更多数据/正则化
 
