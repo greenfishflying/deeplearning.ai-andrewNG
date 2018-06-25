@@ -85,4 +85,9 @@ dZ[L]=(n(L),m)
 
 当lamda变得很大，部分权重会变得很小，在激活函数中不具备非线性功能，相当于被屏蔽掉
 
+Dropout 正则化:
+----
+Dropout（随机失活）就是在神经网络的Dropout层，为每个神经元结点设置一个随机消除的概率，对于保留下来的神经元，我们得到一个节点较少，规模较小的网络进行训练。
+
+![](https://img-blog.csdn.net/20170928214708004?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS29hbGFfVHJlZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
