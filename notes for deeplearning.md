@@ -54,3 +54,24 @@ dZ[L]=(n(L),m)
 链接：https://zhuanlan.zhihu.com/p/35394638
 来源：知乎
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+偏差、方差
+----
+对于下图中两个类别分类边界的分割： 
+
+![](https://img-blog.csdn.net/20170928161736059?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS29hbGFfVHJlZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+从图中我们可以看出，在欠拟合（underfitting）的情况下，出现高偏差（high bias）的情况；
+
+在过拟合（overfitting）的情况下，出现高方差（high variance）的情况。
+
+在bias-variance tradeoff 的角度来讲，我们利用训练集对模型进行训练就是为了使得模型在train集上使 bias 最小化，避免出现underfitting的情况；
+
+解决办法
+
+![](https://img-blog.csdn.net/20170928171621914?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS29hbGFfVHJlZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+高偏差（欠拟合）--->更大的网络/更长时间的训练/（换网络）
+高方差（欠拟合）--->更多数据/正则化
+
