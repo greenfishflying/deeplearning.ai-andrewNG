@@ -38,6 +38,8 @@ dZ[L]=(n(L),m)
 
 这个是最好理解的，用来训练模型内参数的数据集，Classfier直接根据训练集来调整自身获得更好的分类效果
 
+
+
 验证集   
 ----
 
@@ -90,4 +92,30 @@ Dropout 正则化:
 Dropout（随机失活）就是在神经网络的Dropout层，为每个神经元结点设置一个随机消除的概率，对于保留下来的神经元，我们得到一个节点较少，规模较小的网络进行训练。
 
 ![](https://img-blog.csdn.net/20170928214708004?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS29hbGFfVHJlZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+超参数调节:
+----
+
+最重要：
+
+α:学习率
+
+其次：
+
+β：动量项
+
+mini-bantch size：小规模样本内含数量
+
+隐藏单元数量
+
+再次：
+
+学习率衰减
+
+网络层数
+
+最次：
+Adam算法参数
+
+![]()
 
