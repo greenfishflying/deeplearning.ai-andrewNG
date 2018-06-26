@@ -117,5 +117,5 @@ mini-bantch size：小规模样本内含数量
 最次：
 Adam算法参数
 
-![]()
+![](./img/w2m1.npg.png)
 
